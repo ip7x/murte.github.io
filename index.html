@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="background-animation">
+    <div class="rose">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+    </div>
+</div>
 
+<div class="container">
+    <div class="letter-image">
+        <div class="animated-mail">
+            <div class="back-fold"></div>
+            <div class="letter">
+                <div class="letter-border"></div>
+                <div class="letter-title"></div>
+                <div class="letter-context"></div>
+                <div class="letter-stamp">
+                    <div class="letter-stamp-inner"></div>
+                </div>
+            </div>
+            <div class="top-fold"></div>
+            <div class="body"></div>
+            <div class="left-fold"></div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+</div>
+
+<div id="popup-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-button">&times;</span>
+            <h2>رسالة الى الكتكوتة لتعبانة</h2>
+        </div>
+        <div class="modal-body">
+            <h3>الى ريم غسان</h3>
+            <p>كل لحظة تعب تسهرين بيها على مود دراستج تزيدين فخر انو عرفت شطورة مثلج فخور بيج وبهذا الجهد اللي دتبذليه أتمنى أشوفج بأعلى المراتب لأن انتي تستاهلين كل لحضه من النجاح ولفخر و الحب استمرييي اعتمد عليج, نجاحج هو نجاحي واني وياج بكل خطوة أحبج ريمي</p>
+            <p>منتظر خطيبج لمستقبلي</p>
+        </div>
+        <div class="modal-footer">
+            <button id="music-toggle-btn" class="button">إيقاف الموسيقى</button>
+            <button class="button close-button-footer">سديي</button>
+        </div>
+    </div>
+</div>
+
+<!-- عنصر الصوت للموسيقى الخلفية -->
+<audio id="background-music" src="ريمييي.mp3" loop></audio>
+
+<!-- ربط ملف الجافاسكريبت الخارجي -->
+<script src="script.js"></script>
+</body>
+</html>
